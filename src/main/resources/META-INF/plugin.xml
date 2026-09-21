@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>vn.logcraft</id>
+    <name>LogCraft</name>
+    <version>1.0.2</version>
+    <vendor>LogCraft</vendor>
+    <idea-version since-build="252" until-build="262.*"/>
+
+    <description><![CDATA[
+      A private, local-first log pipeline workbench for Grok, ECS, Logstash,
+      pasted Kafka messages, and safe log sharing inside your JetBrains IDE.
+      Test Grok patterns in batches, review ECS fields, suggest Elasticsearch
+      mappings, inspect Logstash configuration, mask sensitive values, and
+      simulate events without uploading log content or connecting to a backend.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="LogCraft"
+                    anchor="right"
+                    factoryClass="vn.logcraft.ui.LogCraftToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
