@@ -23,7 +23,7 @@ LogCraft processes supplied text locally in the IDE. It does not upload logs, us
 
 ## Installation
 
-Install LogCraft from the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/34344-logcraft) when the current release becomes available.
+Install LogCraft from the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/34397-logcraft) when the current release becomes available.
 
 To install a locally built archive:
 
